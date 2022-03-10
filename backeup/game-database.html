@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Game Database</title>
+  </head>
+  <body class="datbase">
+
+<!-----------------------------------header-Start------------------------------------->  
+<header>
+  <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="images/transparent-Logo.png"></a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#"><img class="withour-over" src="images/home.png"><img class="on-hover" src="images/home-hover.png">
+          <span class="tooltiptext">Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img class="withour-over" src="images/compass.png"><img class="on-hover" src="images/compass-hover.png">
+            <span class="tooltiptext">Explore</span></a>
+        </li>
+       <li class="nav-item sarch-head">
+          <input class="form-control search-bar" type="search" placeholder="Search Games" aria-label="Search">
+          <i class="fa fa-search text-gray-400 z-20 hover:text-gray-500"></i>
+          <button type="button" class="btn btn-primary search-mob" data-bs-toggle="modal" data-bs-target="#exampleModal">
+           <i class="fa fa-search text-gray-400 z-20 hover:text-gray-500"></i>
+       </button>
+        </li>
+      </ul>
+      <form class="d-flex">
+       <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img class="withour-over" src="images/celendar.png"><img class="on-hover" src="images/celendar-hover.png">
+           <span class="tooltiptext">Game Collection </span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img class="withour-over" src="images/messenger.png"><img class="on-hover" src="images/messenger-hover.png">
+         <span class="tooltiptext">Messenger</span>
+          </a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#"><img class="withour-over" src="images/notification.png"><img class="on-hover" src="images/notification-hover.png">
+         <span class="tooltiptext">Notifications </span>
+          </a>
+        </li>
+        <li class="nav-item user-head">
+          <a class="nav-link" href="#"><img src="images/user.png">
+          <span class="tooltiptext">Profile  </span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           <span>+</span> Log
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+          </ul>
+        </li>
+       </ul> 
+      </form>
+    </div>
+   </div>
+ </nav>
+</header>
+<!-----------------------------------Banner-Start------------------------------------->  
+<div class="banner collection-database">
+  <nav class="custom-nav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Games</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Users</a>
+        </li>
+      </ul>
+  </nav>
+</div>
+
+<!-----------------------------------Collection-Start------------------------------------->  
+<div class="collection-outer">
+<div class="container-fluid">
+<!------------------------------tab-bar-Start------------------------------> 
+<div class="tab-inner-bar">
+  <div class="tab-search">
+    <a class="go-back" href="game-collection.html"><i class="fa fa-angle-left" aria-hidden="true"></i> Go back</a>
+</div>
+ <div class="tab-filters filters">
+   <ul class="navbar-nav">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Year <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="#">2021</a></li>
+      <li><a class="dropdown-item" href="#">2022</a></li>
+    </ul>
+   </li>
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">GENRE<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="#">Demo</a></li>
+      <li><a class="dropdown-item" href="#">Demo2</a></li>
+    </ul>
+   </li>
+   <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PLATFORM<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="#">Demo</a></li>
+      <li><a class="dropdown-item" href="#">Demo2</a></li>
+    </ul>
+   </li>
+   <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">TYPE<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="#">Demo</a></li>
+      <li><a class="dropdown-item" href="#">Demo2</a></li>
+    </ul>
+   </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PUBLISHER<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="#">Demo</a></li>
+      <li><a class="dropdown-item" href="#">Demo2</a></li>
+    </ul>
+   </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">DEVELOPER<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="#">Demo</a></li>
+      <li><a class="dropdown-item" href="#">Demo2</a></li>
+    </ul>
+   </li>
+  </ul>
+ </div>
+ <div class="tab-right filters">
+   <ul class="navbar-nav">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">SORT<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="#">Name</a></li>
+      <li><a class="dropdown-item" href="#">Date</a></li>
+    </ul>
+   </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img class="withour-over" src="images/eye.png"><img class="on-hover" src="images/eye-hover.png"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="#">Name</a></li>
+      <li><a class="dropdown-item" href="#">Date</a></li>
+    </ul>
+   </li>
+   <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/up-down.png"></a>
+   </li>
+   <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img class="withour-over" src="images/collection-icon-white.png"><img class="on-hover" src="images/collection-icon-white-hover.png"></a>
+   </li>
+   <li class="nav-item">
+    <button class="nav-link filter-btn" href="#"><img class="withour-over" src="images/filter.png"><img class="on-hover" src="images/filter-hover.png"></button>
+   </li>
+  </ul>
+ </div>
+</div>
+
+
+<!------------------------------tab-item------------------------------> 
+ <div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+    <div class="games-show">
+      <ul>
+        <li><a href="#"><img src="images/game1.jpg"></a></li>
+        <li><a href="#"><img src="images/game2.jpg"></a></li>
+        <li><a href="#"><img src="images/game3.jpg"></a></li>
+        <li><a href="#"><img src="images/game4.jpg"></a></li>
+        <li><a href="#"><img src="images/game5.jpg"></a></li>
+        <li><a href="#"><img src="images/game6.jpg"></a></li>
+        <li><a href="#"><img src="images/game7.jpg"></a></li>
+        <li><a href="#"><img src="images/game8.jpg"></a></li>
+        <li><a href="#"><img src="images/game9.jpg"></a></li>
+        <li><a href="#"><img src="images/game10.jpg"></a></li>
+        <li><a href="#"><img src="images/game11.jpg"></a></li>
+        <li><a href="#"><img src="images/game12.jpg"></a></li>
+        <li><a href="#"><img src="images/game13.jpg"></a></li>
+        <li><a href="#"><img src="images/game14.jpg"></a></li>
+        <li><a href="#"><img src="images/game15.jpg"></a></li>
+        <li><a href="#"><img src="images/game16.jpg"></a></li>
+        <li><a href="#"><img src="images/game17.jpg"></a></li>
+        <li><a href="#"><img src="images/game18.jpg"></a></li>
+        <li><a href="#"><img src="images/game19.jpg"></a></li>
+        <li><a href="#"><img src="images/game20.jpg"></a></li>
+        <li><a href="#"><img src="images/game21.jpg"></a></li>
+        <li><a href="#"><img src="images/game22.jpg"></a></li>
+        <li><a href="#"><img src="images/game23.jpg"></a></li>
+        <li><a href="#"><img src="images/game24.jpg"></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">2</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">3</div>
+  <div class="tab-pane fade" id="beaten" role="tabpanel" aria-labelledby="beaten-tab">4</div>
+  <div class="tab-pane fade" id="percent" role="tabpanel" aria-labelledby="percent-tab">5</div>
+  <div class="tab-pane fade" id="backlog" role="tabpanel" aria-labelledby="backlog-tab">6</div>
+  <div class="tab-pane fade" id="ditched" role="tabpanel" aria-labelledby="ditched-tab">7</div>
+ </div>
+
+</div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade serach-pop" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <input class="form-control search-bar" type="search" placeholder="Search" aria-label="Search"> 
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+
+
+ <script src="js/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script>
+$(document).ready(function(){
+  $(".filter-btn").click(function(){
+    $(".tab-filters").toggleClass("div-show");
+  });
+
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 50) {
+       $('header').addClass('sticky');
+    } else {
+       $('header').removeClass('sticky');
+    }
+});
+
+});
+</script>
+  </body>
+</html>

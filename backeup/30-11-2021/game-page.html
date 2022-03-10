@@ -1,0 +1,347 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Game Page</title>
+  </head>
+  <body>
+
+<!-----------------------------------header-Start------------------------------------->  
+<header>
+  <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="images/transparent-Logo.png"></a>
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0 mob-head">
+        <li class="nav-item dropdown uer-pic">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="images/user-pic.jpg">
+            jack 
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Log Out</a></li>
+          </ul>
+        </li>
+     </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#"><img class="withour-over" src="images/home.png"><img class="on-hover" src="images/home-hover.png">
+          <span class="tooltiptext">Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img class="withour-over" src="images/compass.png"><img class="on-hover" src="images/compass-hover.png">
+            <span class="tooltiptext">Explore</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img class="withour-over" src="images/celendar.png"><img class="on-hover" src="images/celendar-hover.png">
+           <span class="tooltiptext">Game Collection </span></a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <li class="nav-item sarch-head">
+          <input class="form-control search-bar" type="search" placeholder="Search Games" aria-label="Search">
+          <i class="fa fa-search text-gray-400 z-20 hover:text-gray-500"></i>
+          <button type="button" class="btn btn-primary search-mob" data-bs-toggle="modal" data-bs-target="#exampleModal">
+           <i class="fa fa-search text-gray-400 z-20 hover:text-gray-500"></i>
+       </button>
+        </li>
+      </ul>
+      
+      <form class="d-flex">
+       <ul class="navbar-nav">
+       	 <li class="nav-item dropdown uer-pic desk">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="images/user-pic.jpg">
+            jack 
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Log Out</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img class="withour-over" src="images/messenger.png"><img class="on-hover" src="images/messenger-hover.png">
+         <span class="tooltiptext">Messenger</span>
+          </a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#"><img class="withour-over" src="images/notification.png"><img class="on-hover" src="images/notification-hover.png">
+         <span class="tooltiptext">Notifications </span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           <span>+</span> Log
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+          </ul>
+        </li>
+       </ul> 
+      </form>
+    </div>
+   </div>
+ </nav>
+</header>
+<!-----------------------------------Banner-Start------------------------------------->  
+<div class="banner">
+  <h1></h1>
+</div>
+
+<div class="game-outer container-fluid">
+ <div class="row">
+  <div class="col-md-9">
+    <div class="row">
+     <div class="col-md-4">
+      <div class="game-img-left">
+        <img src="images/game13.jpg">
+       </div>
+       <div class="game-top-left-icons">
+       <ul>
+       	<li><img src="images/playing.png"> 97</li>
+       	<li><img src="images/played2.png"> 654</li>
+       	<li><img src="images/beaten.png"> 4.5k</li>
+       	<li><img src="images/percent.png"> 123</li>
+       	<li><img src="images/backlog.png"> 276</li>
+       	<li><img src="images/ditched1.png"> 276</li>
+       </ul>
+       </div>
+       <div class="game-edit">
+        <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+         Edit this game
+       </div>
+     </div>
+     <div class="col-md-8">
+      <h1>Red Dead Redemption 2</h1>
+      <div class="game-details">
+      	<p><span>Rockstar Games </span> | Release Date: <span> Oct 26, 2018</span></p>
+      	<ul>
+      	  <li><img src="images/music.png"></li>	
+      	  <li><img src="images/music.png"></li>	
+      	  <li><img src="images/music.png"></li>	
+      	</ul>
+      </div> 
+	<ul class="nav nav-pills game-tabs mb-3" id="pills-tab" role="tablist">
+	  <li class="nav-item" role="presentation">
+	    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">About</button>
+	  </li>
+	  <li class="nav-item" role="presentation">
+	    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Details</button>
+	  </li>
+	  <li class="nav-item" role="presentation">
+	    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Versions</button>
+	  </li>
+	  <li class="nav-item" role="presentation">
+	    <button class="nav-link" id="pills-dlc-tab" data-bs-toggle="pill" data-bs-target="#pills-dlc" type="button" role="tab" aria-controls="pills-dlc" aria-selected="false">DLC / Expansions</button>
+	  </li>
+	  <li class="nav-item" role="presentation">
+	    <button class="nav-link" id="pills-trailers-tab" data-bs-toggle="pill" data-bs-target="#pills-trailers" type="button" role="tab" aria-controls="pills-trailers" aria-selected="false">Trailers & Photos</button>
+	  </li>
+	</ul>
+	<div class="tab-content game-tabs-content" id="pills-tabContent">
+	  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+	 Developed by the creators of Grand Theft Auto V and Red Dead Redemption, Red Dead Redemption 2 is an epic tale of life in America's unforgiving heartland. The game's vast and atomspheric world will also provide the foundation for a brand new online multiplayer experience.</div>
+	  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+	  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+	  <div class="tab-pane fade" id="pills-dlc" role="tabpanel" aria-labelledby="pills-dlc-tab">...</div>
+	  <div class="tab-pane fade" id="pills-trailers" role="tabpanel" aria-labelledby="pills-trailers-tab">...</div>
+	 </div>
+    </div>
+
+	<div class="col-md-4">
+	  <ul class="left-boxes">
+	  	<li>
+	  	 <h3>Price Tracker</h3>
+	  	 <div class="left-box-content">Coming soon for Platinum Members</div>
+	  	</li>
+	    <li>
+	  	 <h3>Upcoming</h3>
+	  	 <div class="left-box-content">Coming soon for Free Members</div>
+	  	</li>
+	    <li>
+	  	 <h3>Franchise</h3>
+	  	 <div class="left-box-content">Coming soon for Free Members</div>
+	  	</li>
+	  </ul>
+
+	</div>
+	<div class="col-md-8">
+    <div class="user-friend">
+	  <div class="view-heading">
+       <h3>Activity From Friends</h3>
+       <a href="#">View All</a> 
+      </div>	
+      <ul class="user-listing">
+       <li>
+       	<a href="#"><img class="user-img" src="images/profile_user1.jpg"><img class="user-img-icon" src="images/playing.png"></a>
+       </li>
+       <li>
+       	<a href="#"><img class="user-img" src="images/profile_user1.jpg"><img class="user-img-icon" src="images/played2.png"></a>
+       </li>
+       <li>
+       	<a href="#"><img class="user-img" src="images/profile_user1.jpg"><img class="user-img-icon" src="images/beaten.png"></a>
+       </li>
+       <li>
+       	<a href="#"><img class="user-img" src="images/profile_user1.jpg"><img class="user-img-icon" src="images/percent.png"></a>
+       </li>
+        <li>
+       	<a href="#"><img class="user-img" src="images/profile_user1.jpg"><img class="user-img-icon" src="images/backlog.png"></a>
+       </li>
+       <li>
+       	<a href="#"><img class="user-img" src="images/profile_user1.jpg"><img class="user-img-icon" src="images/ditched1.png"></a>
+       </li>
+      </ul>
+  </div>
+  <div class="review-lists mt-7">
+	  <div class="view-heading">
+       <h3>Reviews From Friends</h3>
+       <a href="#">View All</a> 
+      </div>	
+	  <ul>
+	    <li class="rev-list">
+	      <div class="review-left">
+	      	<img class="user-img" src="images/profile_user1.jpg">
+	      	<span class="score">10</span>
+	      </div>
+	      <div class="review-right">
+	      	<div class="author-detail">
+             <h3>Coltin David</h3>
+             <div class="author-and-time">
+             	<span class="author-name">@Coltin</span>
+                <span class="author-time">: 12</span>
+             </div>
+            </div>
+            <p>Developed by the creators of Grand Theft Auto V and Red Dead Redemption, Red Dead Redemption 2 is an epic tale of life in America's unforgiving heartland. The game's vast and atomspheric world will also p</p>
+            <ul>
+               <li><i class="fa fa-heart-o" aria-hidden="true"></i> 2</li>
+               <li><i class="fa fa-comment-o" aria-hidden="true"></i> 2</li>
+            </ul>
+	      </div>
+	    </li>	
+	    <li class="rev-list">
+	      <div class="review-left">
+	      	<img class="user-img" src="images/profile_user1.jpg">
+	      	<span class="score">10</span>
+	      </div>
+	      <div class="review-right">
+	      	<div class="author-detail">
+             <h3>Coltin David</h3>
+             <div class="author-and-time">
+             	<span class="author-name">@Coltin</span>
+                <span class="author-time">: 12</span>
+             </div>
+            </div>
+            <p>Developed by the creators of Grand Theft Auto V and Red Dead Redemption, Red Dead Redemption 2 is an epic tale of life in America's unforgiving heartland. The game's vast and atomspheric world will also p</p>
+            <ul>
+               <li><i class="fa fa-heart-o" aria-hidden="true"></i> 2</li>
+               <li><i class="fa fa-comment-o" aria-hidden="true"></i> 2</li>
+            </ul>
+	      </div>
+	    </li>
+	   <li class="rev-list">
+	      <div class="review-left">
+	      	<img class="user-img" src="images/profile_user1.jpg">
+	      	<span class="score">10</span>
+	      </div>
+	      <div class="review-right">
+	      	<div class="author-detail">
+             <h3>Coltin David</h3>
+             <div class="author-and-time">
+             	<span class="author-name">@Coltin</span>
+                <span class="author-time">: 12</span>
+             </div>
+            </div>
+            <p>Developed by the creators of Grand Theft Auto V and Red Dead Redemption, Red Dead Redemption 2 is an epic tale of life in America's unforgiving heartland. The game's vast and atomspheric world will also p</p>
+            <ul>
+               <li><i class="fa fa-heart-o" aria-hidden="true"></i> 2</li>
+               <li><i class="fa fa-comment-o" aria-hidden="true"></i> 2</li>
+            </ul>
+	      </div>
+	    </li>
+
+	 </ul>
+  </div>
+
+  <div class="review-lists friend-list mt-7">
+	  <div class="view-heading">
+       <h3>Lists From Friends</h3>
+       <a href="#">View All</a> 
+      </div>	
+	  <ul>
+	    <li class="rev-list">
+	      <div class="friend-left">
+	      	<img class="friend-img" src="images/list-friend.jpg">
+	      </div>
+	      <div class="review-right">
+	      	<div class="author-detail">
+             <h3>My Favorite Open World games!</h3>
+           </div>
+           <img src="images/profile_user1.jpg" class="friend-profile">
+            <div class="author-and-time">
+              <span class="author-name">@Coltin</span>
+              <span class="author-time">: 12</span>
+             </div>
+             <ul>
+               <li><i class="fa fa-heart-o" aria-hidden="true"></i> 2</li>
+               <li><i class="fa fa-comment-o" aria-hidden="true"></i> 2</li>
+            </ul>
+            <p>Developed by the creators of Grand Theft Auto V and Red Dead Redemption, Red Dead Redemption 2 is an epic tale of life in America's unforgiving heartland. The game's vast and atomspheric world will also p</p>
+	      </div>
+	    </li>	
+	 </ul>
+  </div>
+
+
+	</div>
+    </div>
+  </div>
+
+
+  <div class="col-md-3">
+
+  </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade serach-pop" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <input class="form-control search-bar" type="search" placeholder="Search" aria-label="Search"> 
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+
+<!-- Latest compiled and minified JavaScript -->
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/bootstrap-select.js"></script>
+ <script>
+$(document).ready(function(){
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 50) {
+       $('header').addClass('sticky');
+    } else {
+       $('header').removeClass('sticky');
+    }
+});
+
+});
+</script>
+  </body>
+</html>
